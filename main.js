@@ -100,14 +100,14 @@ do{
             precio = 7000;
             break;
         default:
-            alert("algunos de los datos son incorrectos payaso");
+            alert("algunos de los datos son incorrectos");
             precio =0;
             cantidad = 0;
             break;
     }
     precioTotal += precio * cantidad;
 
-    seguirComprando = confirm("¿queres seguir comprando payaso?");
+    seguirComprando = confirm("¿queres seguir comprando?");
 
 }while (seguirComprando);
 alert("el valor es :")
