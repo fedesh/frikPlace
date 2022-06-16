@@ -89,7 +89,7 @@ let precioTotal = 0;
 let seguirComprando = false;
 do{
     producto = prompt ("¿queres comprar un buzo o figura?")
-    producto = Number (prompt ("¿cuantos productos?"));
+    cantidad = Number ( prompt("¿cuantos productos?"));
     switch(producto) {
         case "buzo":
         precio = 3000;
@@ -110,4 +110,45 @@ do{
     seguirComprando = confirm("¿queres seguir comprando?");
 
 }while (seguirComprando);
-alert("el valor es :")
+alert("el valor es :"+precioTotal)
+
+/*const suma = (a, b) => a + b;
+const resta = (a, b) => a - b;
+
+const iva = x => x * 0.21;
+
+let precioProducto = 500;
+let precioDescuento = 50;
+
+let nuevoPrecio = resta( suma(precioProducto, iva(precioProducto)), precioDescuento);
+
+console.log(nuevoPrecio);
+*/
+dasdasdasd
+// do {
+//     producto = prompt("queres comprar shampoo, acondicionador o ambos"); 
+//     cantidad = Number(prompt("cuantos queres comprar"));
+
+//     switch (producto) {
+//         case "shampoo":
+//             precio = 500
+//             break;
+//         case "acondicionador":
+//             precio = 700
+//             break;
+//         case "ambos":
+//             precio = 1100; 
+//             break;
+//         default:
+//             alert("algunos de los datos ingresados son incorrectos");
+//             precio = 0;
+//             cantidad = 0;
+//             break;
+//     }
+//     precioTotal += precio * cantidad;
+
+//     seguirComprando = confirm("seguir comprando")
+
+// } while (seguirComprando);
+
+// alert("el valor de la compra: " + "\n\n" + precioTotal);
