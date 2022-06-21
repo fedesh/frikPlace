@@ -82,7 +82,7 @@ do {
     }
 } while (askAgain);*/
 
-/*let producto ="";
+let producto ="";
 let precio = 0;
 let cantidad = 0;
 let precioTotal = 0;
@@ -110,7 +110,7 @@ do{
     seguirComprando = confirm("¿queres seguir comprando?");
 
 }while (seguirComprando);
-alert("el valor es :"+precioTotal)*/
+alert("el valor es :"+precioTotal)
 
 /*const suma = (a, b) => a + b;
 const resta = (a, b) => a - b;
