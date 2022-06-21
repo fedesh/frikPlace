@@ -82,7 +82,7 @@ do {
     }
 } while (askAgain);*/
 
-let producto ="";
+/*let producto ="";
 let precio = 0;
 let cantidad = 0;
 let precioTotal = 0;
@@ -110,7 +110,7 @@ do{
     seguirComprando = confirm("¿queres seguir comprando?");
 
 }while (seguirComprando);
-alert("el valor es :"+precioTotal)
+alert("el valor es :"+precioTotal)*/
 
 /*const suma = (a, b) => a + b;
 const resta = (a, b) => a - b;
@@ -123,32 +123,29 @@ let precioDescuento = 50;
 let nuevoPrecio = resta( suma(precioProducto, iva(precioProducto)), precioDescuento);
 
 console.log(nuevoPrecio);
-*/
-dasdasdasd
-// do {
-//     producto = prompt("queres comprar shampoo, acondicionador o ambos"); 
-//     cantidad = Number(prompt("cuantos queres comprar"));
 
-//     switch (producto) {
-//         case "shampoo":
-//             precio = 500
-//             break;
-//         case "acondicionador":
-//             precio = 700
-//             break;
-//         case "ambos":
-//             precio = 1100; 
-//             break;
-//         default:
-//             alert("algunos de los datos ingresados son incorrectos");
-//             precio = 0;
-//             cantidad = 0;
-//             break;
-//     }
-//     precioTotal += precio * cantidad;
 
-//     seguirComprando = confirm("seguir comprando")
 
-// } while (seguirComprando);
+/*function Producto(nombre, precio, marca) {
+    this.nombre = nombre,
+    this.precio = precio,
+    this.marca = marca
+}
 
-// alert("el valor de la compra: " + "\n\n" + precioTotal);
+const producto1 = new Producto ("Remera", 100, "Adidas");*/
+
+let resultado = 0;
+function sumar (primerNumero, segundoNumero){
+    resultado = primerNumero + segundoNumero;
+}
+function mostrarResultado(resultado) {
+    console.log()
+}
+sumar(1000, 2000);
+mostrarResultado(resultado);
+console.log(resultado)
+
+
+
+
+
