@@ -153,13 +153,13 @@ for (let i = 0; i < numeros.length; i++ ) {
 
 
 
-/*const aves = ["pepo","pepi"];
+const aves = ["pepo","pepi"];
 const gatos = ["michu","panterita","michina"];
 const mascotas = aves.concat(gatos);
 console.log(mascotas);
 
 const otroArray = ["hola", "como","estas"]
-console.log(otroArray.join("-"));*/
+console.log(otroArray.join("-"));
 
 const nombres = ["fede", "miguel", "silvia", "gustavo", "noemi"];
 let nuevoUsuario = "";
