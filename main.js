@@ -82,7 +82,7 @@ do {
     }
 } while (askAgain);*/
 
-let producto ="";
+/*let producto ="";
 let precio = 0;
 let cantidad = 0;
 let precioTotal = 0;
@@ -110,7 +110,7 @@ do{
     seguirComprando = confirm("¿queres seguir comprando?");
 
 }while (seguirComprando);
-alert("el valor es :"+precioTotal)
+alert("el valor es :"+precioTotal)*/
 
 /*const suma = (a, b) => a + b;
 const resta = (a, b) => a - b;
@@ -134,7 +134,7 @@ console.log(nuevoPrecio);
 
 const producto1 = new Producto ("Remera", 100, "Adidas");*/
 
-let resultado = 0;
+/*let resultado = 0;
 function sumar (primerNumero, segundoNumero){
     resultado = primerNumero + segundoNumero;
 }
@@ -143,8 +143,33 @@ function mostrarResultado(resultado) {
 }
 sumar(1000, 2000);
 mostrarResultado(resultado);
-console.log(resultado)
+console.log(resultado)*/
 
+/*const numeros = [15,30,45,60,75]
+for (let i = 0; i < numeros.length; i++ ) {
+    alert (numeros [i])
+    
+}*/
+
+
+
+/*const aves = ["pepo","pepi"];
+const gatos = ["michu","panterita","michina"];
+const mascotas = aves.concat(gatos);
+console.log(mascotas);
+
+const otroArray = ["hola", "como","estas"]
+console.log(otroArray.join("-"));*/
+
+const nombres = ["fede", "miguel", "silvia", "gustavo", "noemi"];
+let nuevoUsuario = "";
+do {
+    if (nuevoUsuario != "" ) {
+        alert("el nombre de usuario ya existe, ingrese uno nuevo");
+    }
+    nuevoUsuario = prompt ("ingrese un nombre de usuario:");
+} while( nombres.indexOF(nuevoUsuario) != -1);
+alert("el nombre de usuario "+nuevoUsuario+" se creo");
 
 
 
