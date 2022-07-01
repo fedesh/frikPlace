@@ -153,13 +153,13 @@ for (let i = 0; i < numeros.length; i++ ) {
 
 
 
-const aves = ["pepo","pepi"];
+/*const aves = ["pepo","pepi"];
 const gatos = ["michu","panterita","michina"];
 const mascotas = aves.concat(gatos);
 console.log(mascotas);
 
 const otroArray = ["hola", "como","estas"]
-console.log(otroArray.join("-"));
+console.log(otroArray.join("-"));*/
 
 const nombres = ["fede", "miguel", "silvia", "gustavo", "noemi"];
 let nuevoUsuario = "";
@@ -168,8 +168,49 @@ do {
         alert("el nombre de usuario ya existe, ingrese uno nuevo");
     }
     nuevoUsuario = prompt ("ingrese un nombre de usuario:");
-} while( nombres.indexOF(nuevoUsuario) != -1);
+} while ( nombres.indexOf(nuevoUsuario) != -1);
 alert("el nombre de usuario "+nuevoUsuario+" se creo");
+
+/*const carritoDeCompras = [
+    {nombre: 'Buzos', precio: 2000, cantidad:1},
+    {nombre: 'remeras', precio: 1500, cantidad: 3},
+    {nombre: 'figura', precio: 5000, cantidad:1}
+];
+const cantidadTotal = carritoDeCompras.reduce( (acc, producto) => acc + producto.cantidad, 0);
+const precioTotal = carritoDeCompras.reduce( (acc, elemento) => acc + elemento.precio * elemento.cantidad, 0);
+console.log(cantidadTotal);
+console.log(precioTotal);*/
+
+
+let producto ="";
+let precio = 0;
+let cantidad = 0;
+let precioTotal = 0;
+let seguirComprando = false;
+do{
+    producto = prompt ("¿queres comprar un buzo o figura?")
+    cantidad = Number ( prompt("¿cuantos productos?"));
+    switch(producto) {
+        case "buzo":
+        precio = 3000;
+        case "figura":
+            precio = 5000;
+            break;
+        case "ambos":
+            precio = 7000;
+            break;
+        default:
+            alert("algunos de los datos son incorrectos");
+            precio =0;
+            cantidad = 0;
+            break;
+    }
+    precioTotal += precio * cantidad;
+
+    seguirComprando = confirm("¿queres seguir comprando?");
+
+}while (seguirComprando);
+alert("el valor es :"+precioTotal)
 
 
 
