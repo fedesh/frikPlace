@@ -161,7 +161,7 @@ console.log(mascotas);
 const otroArray = ["hola", "como","estas"]
 console.log(otroArray.join("-"));*/
 
-const nombres = ["fede", "miguel", "silvia", "gustavo", "noemi"];
+/*const nombres = ["fede", "miguel", "silvia", "gustavo", "noemi"];
 let nuevoUsuario = "";
 do {
     if (nuevoUsuario != "" ) {
@@ -169,7 +169,7 @@ do {
     }
     nuevoUsuario = prompt ("ingrese un nombre de usuario:");
 } while ( nombres.indexOf(nuevoUsuario) != -1);
-alert("el nombre de usuario "+nuevoUsuario+" se creo");
+alert("el nombre de usuario "+nuevoUsuario+" se creo");*/
 
 /*const carritoDeCompras = [
     {nombre: 'Buzos', precio: 2000, cantidad:1},
@@ -182,7 +182,7 @@ console.log(cantidadTotal);
 console.log(precioTotal);*/
 
 
-let producto ="";
+/*let producto ="";
 let precio = 0;
 let cantidad = 0;
 let precioTotal = 0;
@@ -210,7 +210,11 @@ do{
     seguirComprando = confirm("¿queres seguir comprando?");
 
 }while (seguirComprando);
-alert("el valor es :"+precioTotal)
+alert("el valor es :"+precioTotal)*/
+let titulo = document.getElementById("Dom")
+
+const nombredeUsuario = prompt ("Bienvenido! ingrese su nombre de usuario:");
+ titulo.innerText = "Hola " +nombredeUsuario+ "!";
 
 
 
