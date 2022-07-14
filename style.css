@@ -35,3 +35,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+.botones{
+    display: inline-block;
+    margin: 1 10px;
+
+}
