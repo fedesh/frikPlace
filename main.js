@@ -1,11 +1,8 @@
-
-let titulo = document.getElementById("Dom")
+/*let titulo = document.getElementById("Dom")
 
 const nombredeUsuario = prompt ("Bienvenido! ingrese su nombre de usuario:");
- titulo.innerText = "Hola " +nombredeUsuario+ "!";
-
-
-
+ titulo.innerText = "Hola " +nombredeUsuario+ "!";*/
+ 
  const boton = document.getElementById("compra");
  
  boton.addEventListener("click", respuestaClick);
@@ -60,9 +57,10 @@ const nombredeUsuario = prompt ("Bienvenido! ingrese su nombre de usuario:");
  };
 
  //guardarLocal('carrito', JSON.stringify(productos));
-for (const productos of productos) {
-   guardarLocal( productos.nombre, JSON.stringify(productos))
+for (const producto of productos) {
+   guardarLocal( producto.nombre, JSON.stringify(producto))
 }
+
 
 
  
