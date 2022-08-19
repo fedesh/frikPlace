@@ -18,9 +18,7 @@ for (let i = 1; i <=20; i++) {
    if (ingresarEdad.length < 2){
       alert ("menor de edad!")
    }
-   alert(" turno para edicion WW n° "+i+" Nombre: "+ingresarNombre+ingresarEdad);
-   
-
+   alert(" turno para edicion WW n° "+i+" -Nombre:" +ingresarNombre+ "//Edad: " +ingresarEdad);
    break;
 }
 
