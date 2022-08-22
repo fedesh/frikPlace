@@ -17,6 +17,7 @@ for (let i = 1; i <=20; i++) {
    let ingresarEdad = prompt ("ingresar Edad");
    if (ingresarEdad.length < 2){
       alert ("menor de edad!")
+      break;
    }
    alert(" turno para edicion WW n° "+i+" -Nombre:" +ingresarNombre+ "//Edad: " +ingresarEdad);
    break;
@@ -38,6 +39,19 @@ const personal = {
 console.log(personal.funciona)
 console.log(personal.date)
 console.log(personal.Direccion)
+
+
+class mercaderia{
+   constructor(color, talle, precio){
+   this.color = color;
+   this.talle = talle;
+   this.precio = precio;
+   }
+}
+const mercaderia1 = new mercaderia("negro","XL","$4000");
+console.log(mercaderia1);
+
+
 
 
 
