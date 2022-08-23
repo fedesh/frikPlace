@@ -13,15 +13,16 @@ if (usernameLogin === username && passwordLogin === password){
    alert('401 unauthorized')
 }*/
 for (let i = 1; i <=20; i++) {
-   let ingresarNombre = prompt ("ingresar nombre");
-   let ingresarEdad = prompt ("edad");
-   if (edad >= 18){
+   let ingresarNombre = prompt ("ingresar Nombre");
+   let ingresarEdad = prompt ("Edad:");
+   if (ingresarEdad <= 17){
       alert ("menor de edad!")
       break;
    }
-   alert(" turno para edicion WW n° "+i+" -Nombre:" +ingresarNombre+ "//Edad: " +ingresarEdad);
+   alert(" turno para edicion WW n° "+i+" -Nombre: " +ingresarNombre+ "//Edad: " +ingresarEdad);
    break;
 }
+
 
 
 const personal = {
