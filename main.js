@@ -14,8 +14,8 @@ if (usernameLogin === username && passwordLogin === password){
 }*/
 for (let i = 1; i <=20; i++) {
    let ingresarNombre = prompt ("ingresar nombre");
-   let ingresarEdad = prompt ("ingresar Edad");
-   if (ingresarEdad.length < 2){
+   let ingresarEdad = prompt ("edad");
+   if (edad >= 18){
       alert ("menor de edad!")
       break;
    }
@@ -49,7 +49,7 @@ class mercaderia{
    }
 }
 const mercaderia1 = new mercaderia("negro","XL","$4000");
-console.log(mercaderia1);
+console.log(mercaderia1)
 
 
 
