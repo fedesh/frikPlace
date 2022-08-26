@@ -19,7 +19,7 @@ for (let i = 1; i <=20; i++) {
       alert ("menor de edad!")
       break;
    }
-   alert(" turno para edicion WW n° "+i+" -Nombre: " +ingresarNombre+ "//Edad: " +ingresarEdad);
+   alert(" turno para edicion WoW n° "+i+" -Nombre: " +ingresarNombre+ "//Edad: " +ingresarEdad);
    break;
 }
 
@@ -51,6 +51,8 @@ class mercaderia{
 }
 const mercaderia1 = new mercaderia("negro","XL","$4000");
 console.log(mercaderia1)
+
+
 
 
 
