@@ -12,6 +12,26 @@ let talles = ["L","X","XL"]
 talles.push("XXL");
 talles.unshift("S");
 talles.splice(1,0,"M")
-
 console.log(talles);
 console.log(talles.indexOf("XL"))
+
+const tall = [ {
+    name : "Buzo",
+    talle: "L",
+    Precio : 2000,
+    },{
+        name : "Buzo",
+        talle: "X",
+        Price : 2300,
+        },{
+            name : "Buzo",
+            talle: "XL",
+            Price : 3000,
+            },{
+                name : "Buzo",
+                talle: "S",
+                Price : 3500,
+                }
+
+];
+console.log(tall)
