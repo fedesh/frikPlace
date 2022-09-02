@@ -12,7 +12,7 @@ if (usernameLogin === username && passwordLogin === password){
 } else{
    alert('401 unauthorized')
 }*/
-for (let i = 1; i <=20; i++) {
+/*for (let i = 1; i <=20; i++) {
    let ingresarNombre = prompt ("ingresar Nombre");
    let ingresarEdad = prompt ("Edad:");
    if (ingresarEdad <= 17){
@@ -21,7 +21,7 @@ for (let i = 1; i <=20; i++) {
    }
    alert(" turno para edicion WoW n° "+i+" -Nombre: " +ingresarNombre+ "//Edad: " +ingresarEdad);
    break;
-}
+}*/
 
 
 

@@ -34,4 +34,13 @@ const tall = [ {
                 }
 
 ];
+
+talles.forEach(escribirTalles);
+
+function escribirTalles(item, index, arr){
+    console.log('a[' + index + '] =' + item);
+}
 console.log(tall)
+
+
+

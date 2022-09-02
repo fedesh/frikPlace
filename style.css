@@ -19,13 +19,13 @@ body{
 .navbar{
     background-color: #6bb3e2;
 }
-.main-grid{
+#main-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     gap: 2rem;
     align-content: center;
 }
-.main-grid > *{
+#main-grid > *{
     background-color: #dfd7d7;
 }
 
