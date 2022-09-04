@@ -1,12 +1,15 @@
 //ALL = cuando queremos traer muchos elementos 
 //${} = me permite colocar codigos dentro de los strings
 // para hacer el acento invertido (``) es Ctrl + Alt dos veces
-    let BrolyF = [""]
-    for (let index = 0; index < 3; index++) {
+
+const image = document.createElement('img');
+image.src = '/imagenes/figura_freezer.jpg';
+
+for (let index = 0; index < 3; index++) {
       
       const newElement = document.createElement("div");
       document.querySelector("#main-grid").append(newElement);
-      newElement.innerHTML = `<img src="../imagenes/figura_broly3.jpg" alt="remera">
+      newElement.innerHTML = `${image};
       <h2>
         remera
       </h2>
