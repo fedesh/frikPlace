@@ -54,6 +54,10 @@ console.log(mercaderia1)
 
 
 
+localStorage.setItem("token","1324");
+sessionStorage.setItem("token","1324");
+
+
 
 
 
