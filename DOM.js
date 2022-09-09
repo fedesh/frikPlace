@@ -11,7 +11,7 @@ let yamcha = document.createElement('h2')
    yamcha = "yamcha"
 let yamcha2 = document.createElement('p')
    yamcha2 = "figura"
-   console.log(image)
+   
 for (let index = 0; index < 3; index++) {
     const newElement = document.createElement("div");
     document.querySelector("#main-grid").append(newElement);
