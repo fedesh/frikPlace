@@ -24,6 +24,7 @@ carrito.addEventListener('click',(e)=>{
     }
 
 
+     //el stopImmediatePropagation se usa para no llmar a otros del mismo evento
      
     e.stopImmediatePropagation();
 })
