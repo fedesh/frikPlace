@@ -10,7 +10,7 @@ boton.addEventListener('click', () => {
 });*/
 
 
-
+//delegacion de eventos es muy util y ayuda bastante para toda la web ej:
 
 const botonnes = document.querySelectorAll('.carrito')
 const carrito = document.getElementById('main-grid')
