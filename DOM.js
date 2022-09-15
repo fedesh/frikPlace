@@ -5,7 +5,7 @@
 
 
 
-const image5 = [ 
+/*const image5 = [ 
 
   {image21 : '"../imagenes/yamcha.jpg"'},
   {image31 : '"../imagenes/figura_broly.jpg"'},
@@ -60,7 +60,98 @@ for (let index = 0; index < 1; index++) {
   ${figuras}
   </p>`
   newElement.classList.add("content-div");
-} 
+} */
 
 
+const products = document.querySelector("#main-grid")
 
+function createDivs([img,product,category,talles,precio,offer]){
+let code = `
+<div class="content-div">
+      <img src="${img}" alt="${product}">
+      <h2>
+        ${category}
+      </h2>
+      <p>
+        ${talles}
+      </p>
+      <p>
+        ${precio}
+      </p>
+      <div class="botones"> 
+        <button id="compra"> Comprar </button> <button class="carrito"> Agregar Carrito </button>
+      </div>
+    </div>`;
+    products.innerHTML += code;
+}
+
+let Div1 = ["../imagenes/figura_majinboo2.jpg",
+"figura",
+"figura magin boo",
+"Medida: 25 cm",
+"Precio $3000",
+];
+
+let Div2 = ["../imagenes/buzo.jpg",
+"Buzo",
+"Buzo",
+"Talle : XL,XXL",
+"precio: $3000",
+];
+
+let Div3 = ["../imagenes/buzo11.png",
+"Buzo",
+"Buzo",
+"Talle : XL,XXL",
+"precio: $3000",
+];
+
+let Div4 = ["../imagenes/buzo12.jpg",
+"Buzo",
+"Buzo Luffy",
+"Talle : L,XL,XXL",
+"precio: $2700",
+];
+
+let Div5 = ["../imagenes/buzo13.png",
+"Buzo",
+"Buzo PlayStation",
+"Talle : L,XL,XXL",
+"precio: $2700",
+];
+
+let Div6 = ["../imagenes/buzo14.jpg",
+"Buzo",
+"Buzo Ahegao",
+"Talle : XL,XXL",
+"precio: $3000",
+];
+let Div7 = ["../imagenes/buzo15.jpg",
+"Buzo",
+"Buzo Anti-Social Club",
+"Talle : L,XL,XXL",
+"precio: $2700",
+];
+
+let Div8 = ["../imagenes/buzo16.jpg",
+"Buzo",
+"Buzo Sasuke-Naruto",
+"Talle : L,XL,XXL",
+"precio: $2700",
+];
+
+createDivs(Div1);
+createDivs(Div2);
+createDivs(Div3);
+createDivs(Div4);
+createDivs(Div5);
+createDivs(Div6);
+createDivs(Div7);
+createDivs(Div8);
+createDivs(Div9);
+createDivs(Div10);
+createDivs(Div11);
+createDivs(Div12);
+createDivs(Div13);
+createDivs(Div14);
+createDivs(Div15);
