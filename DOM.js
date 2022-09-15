@@ -1,8 +1,17 @@
 //ALL = cuando queremos traer muchos elementos 
 //${} = me permite colocar codigos dentro de los strings
 // para hacer el acento invertido (``) es Ctrl + Alt dos veces
+//cloneNode = se puede aplicar para todos los nodos; hace una copia, si pongo (true) copia todos los nodos y hijos que contenga a dentro.
 
 
+
+const image5 = [ 
+
+  {image21 : '"../imagenes/yamcha.jpg"'},
+  {image31 : '"../imagenes/figura_broly.jpg"'},
+  {image41 :'"../imagenes/figura_freezer.jpg"',
+}];
+let image6 =`<img src=${image5} />`
 
 
  let linkImage = '"../imagenes/yamcha.jpg"'
@@ -27,7 +36,7 @@ for (let index = 0; index < 3; index++) {
   
   const newElement = document.createElement("div");
   document.querySelector("#main-grid").append(newElement);
-  newElement.innerHTML = `${image}
+  newElement.innerHTML = `${image6}
   <h2>
   ${yamcha}
   </h2>
@@ -52,3 +61,6 @@ for (let index = 0; index < 1; index++) {
   </p>`
   newElement.classList.add("content-div");
 } 
+
+
+
