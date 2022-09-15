@@ -140,6 +140,55 @@ let Div8 = ["../imagenes/buzo16.jpg",
 "precio: $2700",
 ];
 
+let Div9 = ["../imagenes/buzo17.jpg",
+"Buzo",
+"Buzo",
+"Talle : L,XL,XXL",
+"precio: $3000",
+];
+
+let Div10 = ["../imagenes/buzo3.jpg",
+"Buzo",
+"Buzo Nezuko",
+"Talle : L,XL,XXL",
+"precio: $3000",
+];
+
+let Div11 = ["../imagenes/buzo4.jpg",
+"Buzo",
+"Buzo",
+"Talle : L,XL,XXL",
+"precio: $3000",
+];
+
+let Div12 = ["../imagenes/buzo5.jpg",
+"Buzo",
+"Buzo",
+"Talle : L,XL,XXL",
+"precio: $3000",
+];
+
+let Div13 = ["../imagenes/buzo6.jpg",
+"Buzo",
+"Buzo Sonic",
+"Talle : L,XL,XXL",
+"precio: $3000",
+];
+
+let Div14 = ["../imagenes/buzo7.jpg",
+"Buzo",
+"Buzo Sasuke",
+"Talle : L,XL,XXL",
+"precio: $3000",
+];
+
+let Div15 = ["../imagenes/buzo8.jpg",
+"Buzo",
+"Buzo Danger Zenitsu",
+"Talle : L,XL,XXL",
+"precio: $3000",
+];
+
 createDivs(Div1);
 createDivs(Div2);
 createDivs(Div3);
