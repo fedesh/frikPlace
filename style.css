@@ -76,6 +76,15 @@ img {
     transform: scale(1.3);
 
 }
+.texto{
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+}
+.div-texto{
+    font-size: 25px;
+}
+
 
 
 
