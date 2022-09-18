@@ -13,7 +13,7 @@ boton.addEventListener('click', () => {
 //delegacion de eventos es muy util y ayuda bastante para toda la web ej:
 
 
-const botonnes = document.querySelectorAll('.carrito')
+const botonnes = document.querySelector('.carrito')
 const carrito = document.getElementById('main-grid')
 
 carrito.addEventListener('click',(e)=>{
@@ -22,16 +22,18 @@ carrito.addEventListener('click',(e)=>{
 
     if(value){
         e.target.classList.toggle('changeColor');
-        localStorage.setItem('colorBoton','changeColor');
         //IIFE = son funciones que se ejecutan tan pronto como se definan ej: abajo
-        /*(() => {
+        (() => {
             const color = localStorage.getItem('colorBoton');
             if(color === true){
+                botonnes.className = "green";
+            }else{
                 botonnes.className = color;
             }
-
-        })();*/
+            
+        })();
     }
+    localStorage.setItem('colorBoton','changeColor');
 
 
      //el stopImmediatePropagation se usa para no llmar a otros del mismo evento

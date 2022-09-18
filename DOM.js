@@ -79,7 +79,7 @@ let code = `
         ${precio}
       </p>
       <div class="botones"> 
-        <button id="compra"> Comprar </button> <button class="carrito"> Agregar Carrito </button>
+        <button id="compra"> Comprar </button> <button class="carrito"> Agregar al Carrito</button>
       </div>
     </div>`;
     products.innerHTML += code;
