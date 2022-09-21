@@ -89,7 +89,7 @@ let Div1 = ["../imagenes/figura_majinboo2.jpg",
 "figura",
 "figura magin boo",
 "Medida: 25 cm",
-"Precio $3000",
+"Precio: $3000",
 ];
 
 let Div2 = ["../imagenes/buzo.jpg",

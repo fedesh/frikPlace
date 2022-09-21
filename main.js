@@ -25,7 +25,7 @@ if (usernameLogin === username && passwordLogin === password){
 
 
 
-const personal = {
+/*const personal = {
    funciona: "si",
    date:{
    Nombre: "federico",
@@ -39,7 +39,7 @@ const personal = {
 }
 console.log(personal.funciona)
 console.log(personal.date)
-console.log(personal.Direccion)
+console.log(personal.Direccion)*/
 
 
 class mercaderia{
@@ -84,6 +84,9 @@ carrusel.addEventListener("mouseout", () => {
    start();
 })
 start();
+
+
+
 
 
 
