@@ -95,8 +95,9 @@ let Div1 = ["../imagenes/figura_majinboo2.jpg",
 let Div2 = ["../imagenes/buzo.jpg",
 "Buzo",
 "Buzo",
-"Talle : XL,XXL",
-"precio: $3000",
+"XL,XXL",
+"$3000",
+
 ];
 
 let Div3 = ["../imagenes/buzo11.png",
