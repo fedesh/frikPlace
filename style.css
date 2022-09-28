@@ -14,8 +14,9 @@ header{
     
 }
 body{
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(214,236,111,1) 0%, rgba(25,126,112,1) 87%);
+   /* background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(214,236,111,1) 0%, rgba(25,126,112,1) 87%);*/
+    background-color: aliceblue;
     
 }
 .navbar{
@@ -84,6 +85,11 @@ img {
     justify-content:center;
     
 }
+.btn-toolbar{
+    align-items: center;
+    justify-content: center;
+    
+}
 
 
 .Titulos{
@@ -91,8 +97,37 @@ img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
+.editoriales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.utopia{
+    width: 250px;
+}
 
+/* segundo carrusel */
 
+.box{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    left: 0%;
+    top: 100%;
+}
+.slide-img{
+    height: 450px;
+}
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
 
 
 

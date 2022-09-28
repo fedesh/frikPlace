@@ -52,6 +52,8 @@ class mercaderia{
 const mercaderia1 = new mercaderia("negro","XL","$4000");
 console.log(mercaderia1)
 
+                //carrusel 1
+
 const carrusel = document.querySelector(".carrusel-items")
 
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
@@ -85,6 +87,15 @@ carrusel.addEventListener("mouseout", () => {
 })
 start();
 
+// intento de segundo carrusel
+
+
+
+
+   
+
+
+      
 
 
 
