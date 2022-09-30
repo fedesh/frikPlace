@@ -31,20 +31,15 @@ fetch("https://fakestoreapi.com/products")
   /*fetch("https://dragon-ball-api.herokuapp.com/api/character/Gohan")
   .then((res) => res.json())
   then((data) => console.log(data))*/
+
  function traerRickMorty (){
   fetch("https://rickandmortyapi.com/api/character")
   .then((res) => res.json())
-  .then((data) => {
-    rickandMorty(data);
-  });
+  .then((data) => console.log
+    (data)
+  );
 }
 traerRickMorty ()
 
-function rickandMorty(RickyMorty){
-    const img =document.createElement('img')
-    img.src = RickyMorty.character.image;
-
-    const
-}
 
 
