@@ -87,17 +87,12 @@ carrusel.addEventListener("mouseout", () => {
 })
 start();
 
-// intento de segundo carrusel
+// fetch
 
-$(document).ready(function() {
-   $('#autoWidth').lightSlider({
-       autoWidth:true,
-       loop:true,
-       onSliderLoad: function() {
-           $('#autoWidth').removeClass('cS-hidden');
-       } 
-   });  
- });
+
+
+
+
 
 
    
