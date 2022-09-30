@@ -16,3 +16,7 @@ let user ;
 console.log(usuario.nombre || "el usuario no existe")
 //usamos el "?" para que no se rompa y seguir usando el codigo
 console.log(usuario?.nombre || "el usuario no existe")
+
+
+
+
