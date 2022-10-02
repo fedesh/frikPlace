@@ -18,28 +18,34 @@ console.log(usuario.nombre || "el usuario no existe")
 console.log(usuario?.nombre || "el usuario no existe")
 
 // fetch
-/*let data = [];
+let data = [];
 fetch("https://fakestoreapi.com/products")
   .then((res) => res.json())
   .then((json) => {
     data = [...json];
     data = data.slice(0, 9);
     console.log(data);
+    putData (data);
     
-  });*/
+  });
+  function putData (data) {
+    let post = data;
+    console.log (post);
+    document.querySelector('#6').innerHTML = data.title;
+  }
 
   /*fetch("https://dragon-ball-api.herokuapp.com/api/character/Gohan")
   .then((res) => res.json())
   then((data) => console.log(data))*/
 
- function traerRickMorty (){
+ /*function traerRickMorty (){
   fetch("https://rickandmortyapi.com/api/character")
   .then((res) => res.json())
   .then((data) => console.log
     (data)
   );
 }
-traerRickMorty ()
+traerRickMorty ()*/
 
 
 
