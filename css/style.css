@@ -207,6 +207,60 @@ img {
     align-items: center;
     justify-content: center;
 }
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 10px;
+}
+.contenedor h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.about{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
 
+.services{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.contact{
+    flex-grow: 1;
+    flex-basis: 100%;
+    
+}
+.contact ul{
+    list-style: none;
+    line-height: 2;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: lightblue;
+    text-decoration: underline
+}
+
+
+@media only screen and (max-width:768px) {
+    .contenedor{
+        flex-direction: column;
+    }
+    .box{
+        flex-direction: column;
+    }
+    
+}
 
 

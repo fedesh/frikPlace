@@ -87,8 +87,6 @@ carrusel.addEventListener("mouseout", () => {
 })
 start();
 
-// fetch
-
 
 
 
